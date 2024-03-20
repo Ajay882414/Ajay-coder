@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('/images/waves_.jpg') no-repeat top center;
+    background-attachment: fixed;
+}
+
+.main {
+    width: 1000px;
+    margin: auto;
+    height: 2000px;
+}
+
+header {
+    width: 100%;
+    height: 650px;
+    background: url('/images/headerbg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pattern {
+    width: 100%;
+    height: 100%;
+    background: url('../images/gridtile.png');
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pattern img{
+    width: 300px;
+}
+
+.contant{
+    color: #fff;
+    width: 400px;
+    border: 1px solid #27E0FF;
+    padding: 20px;
+    border-left: none;
+    text-align: center;
+    border-right: none;
+
+    font-size: 36px;
+}
+
+nav ul li {
+    border-right: 2px solid #fff;
+    padding-right: 30px;    
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+nav ul{
+    color: #fff;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    text-decoration: underline;
+}
+
+.li_last{
+    border-right: none;
+}
+section{
+    /* border: 5px solid red; */
+}
+.top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    background: url('/images/3.jpg') center center;
+    background-size: 80% auto;
+    background-attachment: fixed;
+}
+#Aboutus .top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    background: url('/images/1.jpg') center center;
+    background-size: 80% auto;
+    background-attachment: fixed;
+}
+#Services .top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    background: url('/images/2.jpg') center center;
+    background-size: 80% auto;
+    background-attachment: fixed;
+}
+
+#Training .top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    background: url('/images/banner-7.jpg') center center;
+    background-size: 80% auto;
+    background-attachment: fixed;
+}
+
+#ContactUs .top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid black; */
+    background: url('/images/4.jpg') center center;
+    background-size: 80% auto;
+    background-attachment: fixed;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    color: #fff;
+    display: flex;
+    border:  8px solid #FFF;
+    font-size: 26px;
+    padding: 3px 6px;
+    font-weight: bold;
+}
+
+
+.bottom{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 60px 10px;
+    box-sizing: border-box;
+}
+
+.bottom p{
+    width: 100%;
+    font-family: arial;
+    font-size: 17px;
+    color: #182D55;
+    line-height: 30px;
+    text-align: center;
+    background: #FFF;
+}
+
+.p_cont{
+    padding: 50px;
+}
+
+.p_cont :nth-child(1){
+    font-weight: bold;
+}
+
+.sectionfan{
+    /* display: flex; */
+    text-align: center;
+    margin: 50px;
+}
+
+.back-to-top{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.bottom-contact{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding-top: 30px;
+    padding: 60px 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contact_bott{
+    font-size: 34px;
+}
+
+.country{
+    font-size: 24px;
+    padding-top: 10px;
+}
+.b_c{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.h_cont{
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.h_cont :nth-child(1){
+    font-weight: bold;
+    font-size: 20px;
+}
+.h_cont :nth-child(2){
+    font-size: 20px;
+}
+.milan{
+    background: rgba(0,0,0,0.6);
+    height: 50px;
+    text-align: center;
+    padding: 18px 0px;
+    line-height: 22px;
+}
+.Cont_us_top{
+    /* background: rgba(0,0,0,0.6);
+    height: 100px;
+    text-align: center; */
+    /* padding-top: 20px; */
+}
+.Cont_us_top a{
+    color: #FFF;
+    font-size: 25px;
+}
+
+.powered{
+    color: #fff;
+    font-size: 12px;
+}
